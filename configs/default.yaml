@@ -1,0 +1,59 @@
+model:
+  name: "spegnet"
+  encoder:
+    config_path: "configs/sam2.1/sam2.1_hiera_l.yaml"
+    checkpoint_path: "./checkpoints/sam2.1_hiera_large.pt"
+    variant: "large" # Large variant provides optimal feature extraction
+  image_processing:
+    target_size: 512
+    normalize_mean: [0.485, 0.456, 0.406] # Standard ImageNet normalization
+    normalize_std: [0.229, 0.224, 0.225]
+
+training:
+  num_epochs: 150 # Sufficient convergence based on early stopping patterns
+  batch_size: 42 # Optimal for gradient stability and memory usage
+  use_amp: true # Mixed precision training
+
+  num_workers: 8
+  val_ratio: 0.1
+  save_freq: 20 
+  gradient_clip: 1 
+  early_stop_patience: 20 
+  min_delta: 0.0005 
+
+  optimizer:
+    learning_rate: 0.0001 # Base learning rate for stable convergence
+    weight_decay: 0.00001 # L2 regularization for better generalization
+    encoder_lr_ratio: 0.05 
+
+  scheduler:
+    factor: 0.7 
+    patience: 5 
+    min_lr: 0.000001 
+
+  loss:
+    scale_weights: [0.2, 0.3, 0.5] # Stronger emphasis on final output quality
+
+    boundary_weight: 2.0
+    bce_weight: 1.25
+    iou_weight: 1.0 
+
+    edge_weight: 0.75 
+    edge_focal_alpha: 0.75
+    edge_focal_gamma: 2.0 
+
+  datasets:
+    - "datasets/COD10K"
+    - "datasets/CAMO"
+
+evaluation:
+  batch_size: 48
+  num_workers: 8
+  datasets:
+    - "datasets/COD10K"
+    - "datasets/CAMO"
+    - "datasets/NC4K"
+
+prediction:
+  batch_size: 1
+  output_size: null
