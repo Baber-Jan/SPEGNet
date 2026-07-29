@@ -11,7 +11,7 @@
 > <sup>3</sup>University of Western Australia
 > <sup>4</sup>University of Regina
 >
-> _Under Review at IEEE Transactions on Image Processing_
+> _IEEE Transactions on Image Processing, 2026_
 
 ---
 
@@ -360,4 +360,5 @@ For questions or issues:
 
 ## Updates
 
-- **2025-01**: Initial release with IEEE TIP submission
+- **2026-07**: Paper accepted in IEEE Transactions on Image Processing
+- **2025-10**: Initial release with IEEE TIP submission and arXiv preprint
