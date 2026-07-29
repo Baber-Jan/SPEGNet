@@ -1,5 +1,6 @@
 # SPEGNet: Synergistic Perception-Guided Network for Camouflaged Object Detection
 
+[![IEEE TIP](https://img.shields.io/badge/IEEE%20TIP-Accepted-004b87.svg)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83)
 [![arXiv](https://img.shields.io/badge/arXiv-2510.04472-b31b1b.svg)](https://arxiv.org/abs/2510.04472)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
@@ -310,12 +311,12 @@ The model supports various GPU configurations through adjustable batch sizes and
 If you find SPEGNet useful in your research, please cite:
 
 ```bibtex
-@article{jan2024spegnet,
+@article{jan2026spegnet,
   title={SPEGNet: Synergistic Perception-Guided Network for Camouflaged Object Detection},
   author={Jan, Baber and Anwar, Saeed and El-Maleh, Aiman H. and Siddiqui, Abdul Jabbar and Bais, Abdul},
-  journal={arXiv preprint arXiv:2510.04472},
-  year={2024},
-  note={Under review at IEEE Transactions on Image Processing}
+  journal={IEEE Transactions on Image Processing},
+  year={2026},
+  note={Accepted for publication}
 }
 ```
 
