@@ -6,9 +6,13 @@
 [![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.1-orange.svg)](https://pytorch.org/)
 
-> **Synergistic Perception-Guided Network for Camouflaged Object Detection** > [Baber Jan](mailto:baberjan008@gmail.com)<sup>1,2</sup>, [Saeed Anwar](mailto:saeed.anwar@uwa.edu.au)<sup>3</sup>, [Aiman H. El-Maleh](mailto:aimane@kfupm.edu.sa)<sup>1</sup>, [Abdul Jabbar Siddiqui](mailto:abduljabbar.siddiqui@kfupm.edu.sa)<sup>1</sup>, [Abdul Bais](mailto:Abdul.Bais@uregina.ca)<sup>4</sup> > <sup>1</sup>King Fahd University of Petroleum and Minerals
-> <sup>2</sup>SDAIA-KFUPM Joint Research Center for Artificial Intelligence
-> <sup>3</sup>University of Western Australia
+> **Synergistic Perception-Guided Network for Camouflaged Object Detection**
+>
+> [Baber Jan](mailto:baberjan008@gmail.com)<sup>1</sup>, [Saeed Anwar](mailto:saeed.anwar@uwa.edu.au)<sup>3</sup>, [Aiman H. El-Maleh](mailto:aimane@kfupm.edu.sa)<sup>1</sup>, [Abdul Jabbar Siddiqui](mailto:abduljabbar.siddiqui@kfupm.edu.sa)<sup>1,2</sup>, [Abdul Bais](mailto:Abdul.Bais@uregina.ca)<sup>4</sup>
+>
+> <sup>1</sup>King Fahd University of Petroleum and Minerals<br>
+> <sup>2</sup>SDAIA-KFUPM Joint Research Center for Artificial Intelligence<br>
+> <sup>3</sup>The University of Western Australia<br>
 > <sup>4</sup>University of Regina
 >
 > _IEEE Transactions on Image Processing, 2026_
@@ -77,7 +81,7 @@ SPEGNet processes camouflaged images through synergistic modules. A hierarchical
   <em>SPEGNet generalizes to medical imaging and agricultural applications</em>
 </p>
 
-SPEGNet's synergistic design generalizes to related domains without modifications:
+SPEGNet's synergistic design transfers to related domains without architectural modifications. Each domain uses the same architecture trained on that domain's own datasets:
 
 ### Medical Imaging
 
