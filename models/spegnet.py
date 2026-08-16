@@ -67,7 +67,7 @@ class SPEGNet(nn.Module):
        - Stage 2 (33%): Peak refinement at intermediate scale
        - Stage 3 (0%): Pure region consistency
 
-    Reference: IEEE Transactions on Image Processing, 2024 (Under Review)
+    Reference: IEEE Transactions on Image Processing, 2026
 
     Args:
         config: Model configuration dictionary

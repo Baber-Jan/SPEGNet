@@ -1,16 +1,21 @@
 # SPEGNet: Synergistic Perception-Guided Network for Camouflaged Object Detection
 
+[![IEEE TIP](https://img.shields.io/badge/IEEE%20TIP-10.1109%2FTIP.2026.3720524-004b87.svg)](https://doi.org/10.1109/TIP.2026.3720524)
 [![arXiv](https://img.shields.io/badge/arXiv-2510.04472-b31b1b.svg)](https://arxiv.org/abs/2510.04472)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.1-orange.svg)](https://pytorch.org/)
 
-> **Synergistic Perception-Guided Network for Camouflaged Object Detection** > [Baber Jan](mailto:baberjan008@gmail.com)<sup>1,2</sup>, [Saeed Anwar](mailto:saeed.anwar@uwa.edu.au)<sup>3</sup>, [Aiman H. El-Maleh](mailto:aimane@kfupm.edu.sa)<sup>1</sup>, [Abdul Jabbar Siddiqui](mailto:abduljabbar.siddiqui@kfupm.edu.sa)<sup>1</sup>, [Abdul Bais](mailto:Abdul.Bais@uregina.ca)<sup>4</sup> > <sup>1</sup>King Fahd University of Petroleum and Minerals
-> <sup>2</sup>SDAIA-KFUPM Joint Research Center for Artificial Intelligence
-> <sup>3</sup>University of Western Australia
+> **Synergistic Perception-Guided Network for Camouflaged Object Detection**
+>
+> [Baber Jan](mailto:baberjan008@gmail.com)<sup>1</sup>, [Saeed Anwar](mailto:saeed.anwar@uwa.edu.au)<sup>3</sup>, [Aiman H. El-Maleh](mailto:aimane@kfupm.edu.sa)<sup>1</sup>, [Abdul Jabbar Siddiqui](mailto:abduljabbar.siddiqui@kfupm.edu.sa)<sup>1,2</sup>, [Abdul Bais](mailto:Abdul.Bais@uregina.ca)<sup>4</sup>
+>
+> <sup>1</sup>King Fahd University of Petroleum and Minerals<br>
+> <sup>2</sup>SDAIA-KFUPM Joint Research Center for Artificial Intelligence<br>
+> <sup>3</sup>The University of Western Australia<br>
 > <sup>4</sup>University of Regina
 >
-> _Under Review at IEEE Transactions on Image Processing_
+> _IEEE Transactions on Image Processing, 2026_
 
 ---
 
@@ -76,7 +81,7 @@ SPEGNet processes camouflaged images through synergistic modules. A hierarchical
   <em>SPEGNet generalizes to medical imaging and agricultural applications</em>
 </p>
 
-SPEGNet's synergistic design generalizes to related domains without modifications:
+SPEGNet's synergistic design transfers to related domains without architectural modifications. Each domain uses the same architecture trained on that domain's own datasets:
 
 ### Medical Imaging
 
@@ -310,12 +315,15 @@ The model supports various GPU configurations through adjustable batch sizes and
 If you find SPEGNet useful in your research, please cite:
 
 ```bibtex
-@article{jan2024spegnet,
-  title={SPEGNet: Synergistic Perception-Guided Network for Camouflaged Object Detection},
+@article{jan2026spegnet,
   author={Jan, Baber and Anwar, Saeed and El-Maleh, Aiman H. and Siddiqui, Abdul Jabbar and Bais, Abdul},
-  journal={arXiv preprint arXiv:2510.04472},
-  year={2024},
-  note={Under review at IEEE Transactions on Image Processing}
+  journal={IEEE Transactions on Image Processing},
+  title={SPEGNet: Synergistic Perception-Guided Network for Camouflaged Object Detection},
+  year={2026},
+  volume={35},
+  pages={8706--8718},
+  doi={10.1109/TIP.2026.3720524},
+  issn={1941-0042}
 }
 ```
 
@@ -359,4 +367,6 @@ For questions or issues:
 
 ## Updates
 
-- **2025-01**: Initial release with IEEE TIP submission
+- **2026-08**: Published in IEEE Transactions on Image Processing, vol. 35, pp. 8706-8718
+- **2026-07**: Paper accepted in IEEE Transactions on Image Processing
+- **2025-10**: Initial release with IEEE TIP submission and arXiv preprint
