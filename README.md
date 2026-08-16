@@ -1,6 +1,6 @@
 # SPEGNet: Synergistic Perception-Guided Network for Camouflaged Object Detection
 
-[![IEEE TIP](https://img.shields.io/badge/IEEE%20TIP-Accepted-004b87.svg)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83)
+[![IEEE TIP](https://img.shields.io/badge/IEEE%20TIP-10.1109%2FTIP.2026.3720524-004b87.svg)](https://doi.org/10.1109/TIP.2026.3720524)
 [![arXiv](https://img.shields.io/badge/arXiv-2510.04472-b31b1b.svg)](https://arxiv.org/abs/2510.04472)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
@@ -316,11 +316,14 @@ If you find SPEGNet useful in your research, please cite:
 
 ```bibtex
 @article{jan2026spegnet,
-  title={SPEGNet: Synergistic Perception-Guided Network for Camouflaged Object Detection},
   author={Jan, Baber and Anwar, Saeed and El-Maleh, Aiman H. and Siddiqui, Abdul Jabbar and Bais, Abdul},
   journal={IEEE Transactions on Image Processing},
+  title={SPEGNet: Synergistic Perception-Guided Network for Camouflaged Object Detection},
   year={2026},
-  note={Accepted for publication}
+  volume={35},
+  pages={8706--8718},
+  doi={10.1109/TIP.2026.3720524},
+  issn={1941-0042}
 }
 ```
 
@@ -364,5 +367,6 @@ For questions or issues:
 
 ## Updates
 
+- **2026-08**: Published in IEEE Transactions on Image Processing, vol. 35, pp. 8706-8718
 - **2026-07**: Paper accepted in IEEE Transactions on Image Processing
 - **2025-10**: Initial release with IEEE TIP submission and arXiv preprint
